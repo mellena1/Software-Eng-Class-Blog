@@ -5,4 +5,4 @@ steps:
 - name: test
   image: bash
   commands:
-  - echo "hello world"
+  - echo "hello world!"
