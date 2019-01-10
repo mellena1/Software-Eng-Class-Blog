@@ -6,7 +6,13 @@ workspace:
   path: "."
 
 steps:
-- name: test
-  image: bash
-  commands:
-  - echo "hello world"
+- name: Build image and push
+  image: plugins/docker
+  settings:
+    repo: mellena1/software-engineering-blog
+    autotag: true
+  environment:
+    USERNAME:
+      from_secret: username
+    PASSWORD:
+      from_secret: password
