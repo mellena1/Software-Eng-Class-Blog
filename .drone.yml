@@ -6,7 +6,7 @@ workspace:
   path: "."
 
 steps:
-- name: Build image and push
+- name: Build-image-and-push
   image: plugins/docker
   settings:
     repo: mellena1/software-engineering-blog
