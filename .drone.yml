@@ -10,8 +10,7 @@ steps:
   image: plugins/docker
   settings:
     repo: mellena1/software-engineering-blog
-    autotag: true
-    username:
-      from_secret: username
+    auto_tag: true
+    username: mellena1
     password:
       from_secret: password
