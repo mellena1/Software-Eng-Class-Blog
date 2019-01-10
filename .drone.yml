@@ -11,8 +11,7 @@ steps:
   settings:
     repo: mellena1/software-engineering-blog
     autotag: true
-  environment:
-    USERNAME:
+    username:
       from_secret: username
-    PASSWORD:
+    password:
       from_secret: password
