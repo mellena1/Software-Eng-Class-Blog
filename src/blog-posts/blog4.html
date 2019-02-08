@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Blog Post 4">
+    <meta name="author" content="Andrew Mellen">
+
+    <title>Andrew Mellen - COMP-4960</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/blog.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <div class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Andrew Mellen</a>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-lg-8">
+
+          <!-- Title -->
+          <h1 class="mt-4">Week 4 - Organizing the Team</h1>
+
+          <!-- Author -->
+          <p class="lead">
+            by Andrew Mellen
+          </p>
+
+          <hr>
+
+          <!-- Date/Time -->
+          <p>Posted on February 8, 2019</p>
+
+          <hr>
+
+          <!-- Post Content -->
+
+          <p>
+            This week, our group got together to start designing our application for phase one. Our goal was to get some of the basic structure together so that we could have some direction before starting to write code. To start this process, we broke into different groups for the backend and frontend. I ended up joining the backend team, because I think my background and knowledge would be more useful to the backend team.
+          </p>
+
+          <p>
+            We decided to go with a microservice approach to make our development easier, and allow for more freedoms between the frontend and backend team. A lot of well known companies in industry are leaning towards microservices as well, so everyone on our team having this experience will be a positive.
+          </p>
+
+          <p>
+            For the backend team, we made a UML diagram to describe our basic class structure, and also an ERD to describe our database setup. For our database, we decided to go with MySQL because it is free and we have all used it before. We also decided on Go as our language of choice for the API.
+          </p>
+
+          <p>
+            Along with figuring out our class structure, I started stubbing out some of the code to get more of an idea of how our code will look. This action ended up being very productive because it exposed some of the problems with my original class diagram. I was able to switch up some of the layout to make the code cleaner and make more sense.
+          </p>
+
+          <p>
+            Overall, I think this was a productive week and sets us up to be able to meet our overall goal of having a working version of our application for phase one in the next two weeks.
+          </p>
+        </div>
+
+        <!-- Sidebar Widgets Column -->
+        <div class="col-md-4 sidebar">
+
+          <!-- Links to the blogs Widget -->
+          <!-- card my-4 here to align with the page better -->
+          <div class="card my-4">
+            <h5 class="card-header">Easy access to other blogs</h5>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-auto">
+                  <ul class="list-unstyled mb-0" id="blogs-link-list">
+                    <!-- Populated by initLinks() -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+  </body>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+  </footer>
+
+  <!-- Load JS -->
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/helpers.js"></script>
+  <script src="../js/blogposts.js"></script>
+  <script>initLinks();</script>
+
+</html>
