@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Blog Post 5">
+    <meta name="author" content="Andrew Mellen">
+
+    <title>Andrew Mellen - COMP-4960</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/blog.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <div class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Andrew Mellen</a>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-lg-8">
+
+          <!-- Title -->
+          <h1 class="mt-4">Week 5 - Writing the Backend Framework</h1>
+
+          <!-- Author -->
+          <p class="lead">
+            by Andrew Mellen
+          </p>
+
+          <hr>
+
+          <!-- Date/Time -->
+          <p>Posted on February 15, 2019</p>
+
+          <hr>
+
+          <!-- Post Content -->
+
+          <p>
+            This week, our team met up on Monday to discuss what we had done so far and what needed to be done. It was a good time for the frontend and backend teams to have a meeting of the minds and be able to figure out how we could reach our goal of having working code within the next week or two. We decided that the frontend team should get the UI set up, and that the backend team can start implementing the API calls that the frontend team will need to call.
+          </p>
+
+          <p>
+            After our big group meeting was done, I met with the backend team so that we could make our plan for implementing the backend. I showed off what I had done for the backend framework so far, as I took the role of helping to design the code. I took some of the feedback from the group and fixed some of their concerns, and then made a pull request with my code. I think this is a big step in accomplishing our overall goal, so I am happy with that outcome.
+          </p>
+
+          <p>
+            I plan on taking on a reviewer role for the next week, so that the rest of my backend team can learn the codebase better. I will step in where necessary, but everyone seems eager to start getting the code written. I learned a lot about how to better write facades while implementing the stubs of code, so that was a positive for this week. I found it to be a really interesting design pattern in Go.
+          </p>
+
+          <p>
+            I think all in all our team is on a very good path, and that we are setting achievable goals for ourselves. I expect to have a working product within the next week or two easily.
+          </p>
+        </div>
+
+        <!-- Sidebar Widgets Column -->
+        <div class="col-md-4 sidebar">
+
+          <!-- Links to the blogs Widget -->
+          <!-- card my-4 here to align with the page better -->
+          <div class="card my-4">
+            <h5 class="card-header">Easy access to other blogs</h5>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-auto">
+                  <ul class="list-unstyled mb-0" id="blogs-link-list">
+                    <!-- Populated by initLinks() -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+  </body>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+  </footer>
+
+  <!-- Load JS -->
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/helpers.js"></script>
+  <script src="../js/blogposts.js"></script>
+  <script>initLinks();</script>
+
+</html>
