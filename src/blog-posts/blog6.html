@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Blog Post 6">
+    <meta name="author" content="Andrew Mellen">
+
+    <title>Andrew Mellen - COMP-4960</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/blog.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <div class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Andrew Mellen</a>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-lg-8">
+
+          <!-- Title -->
+          <h1 class="mt-4">Week 6 - Writing Out the Stubs</h1>
+
+          <!-- Author -->
+          <p class="lead">
+            by Andrew Mellen
+          </p>
+
+          <hr>
+
+          <!-- Date/Time -->
+          <p>Posted on February 21, 2019</p>
+
+          <hr>
+
+          <!-- Post Content -->
+
+          <p>
+            This week we focused on getting our stubs in the backend implemented. It has been going pretty well. I started to take a backseat, as I did most of the setup for getting the stubs made. I have been reviewing every one elses' code, making sure that everything is written well, as I have the most experience with Go. This also helps us maintain code standards to make sure we all do everything similarly.
+          </p>
+
+          <p>
+            We also decided this week to change our database schema so that we could include a time slot table. This is because of the request by the client that the time slot for one session should change the rest of the session's time slots. This was not much of a change, as our backend code is modular enough to make changes very easily.
+          </p>
+
+          <p>
+            Our frontend team were able to get the main pages of phase one made, so they are now ready to start writing code to implement with our API. Our backend team needs to focus on getting everything implemented that the frontend team will need to complete their goals. This involves getting the GetAll functions done, as those are probably the most important ones to the frontend team.
+          </p>
+
+          <p>
+            All in all, I think we are on track to have a working product by next week. We aimed for completing everything by this week, but we were not able to accomplish that goal. I am confident in our ability to finish phase one by this week though.
+          </p>
+        </div>
+
+        <!-- Sidebar Widgets Column -->
+        <div class="col-md-4 sidebar">
+
+          <!-- Links to the blogs Widget -->
+          <!-- card my-4 here to align with the page better -->
+          <div class="card my-4">
+            <h5 class="card-header">Easy access to other blogs</h5>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-auto">
+                  <ul class="list-unstyled mb-0" id="blogs-link-list">
+                    <!-- Populated by initLinks() -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+  </body>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+  </footer>
+
+  <!-- Load JS -->
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/helpers.js"></script>
+  <script src="../js/blogposts.js"></script>
+  <script>initLinks();</script>
+
+</html>
