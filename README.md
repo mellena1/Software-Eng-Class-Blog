@@ -7,3 +7,5 @@ A blog for my Software Engineering class at Wentworth.
 ```bash
 docker-compose up
 ```
+
+test
